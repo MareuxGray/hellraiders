@@ -1,0 +1,6 @@
+std = "roblox+testez"
+exclude = ["Packages/**", "DevPackages/**", "blueprint/**", "tests/lune/**"]
+
+[lints]
+# Services and controllers are stubs in S0; their arguments are intentionally unused until their step.
+unused_variable = "allow"

@@ -1,0 +1,18 @@
+--!strict
+-- Controller RemotePose: remote players' corrections at 20 Hz.
+-- Owning blueprint file: 04 §4.10. Built in step S5. S0 ships the empty contract only (25 §25.2):
+-- init() wires signals and must not yield; start() may yield. Bootstrap calls every init, then every start.
+
+local RemotePose = {}
+
+RemotePose.Name = "RemotePose"
+
+function RemotePose.init()
+	-- Wired in S5.
+end
+
+function RemotePose.start()
+	-- Started in S5.
+end
+
+return RemotePose
