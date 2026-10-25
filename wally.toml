@@ -1,0 +1,17 @@
+[package]
+name = "mareuxgray/hellraiders"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+# Only these five packages are allowed (25 §25.1). Nothing else without asking Mareux.
+[dependencies]
+Promise = "evaera/promise@4.0.0"
+Signal = "sleitnick/signal@2.0.1"
+Janitor = "howmanysmall/janitor@1.18.3"
+# ProfileStore has no official Wally package (loleris publishes it on GitHub only). Mirrors exist but are
+# unofficial, so it is vendored by hand in S3: copy the module from github.com/MadStudioRoblox/ProfileStore into
+# ServerPackages/ProfileStore.luau (see Handoff.md). Nothing in S0 requires it.
+
+[dev-dependencies]
+TestEZ = "roblox/testez@0.4.1"

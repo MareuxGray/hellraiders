@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+Packages/
+DevPackages/
+ServerPackages/
+build/
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+roblox.toml
+.DS_Store

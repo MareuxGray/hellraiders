@@ -1,0 +1,68 @@
+{
+  "name": "HellRaiders-Mall",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "../src/shared"
+      },
+      "Packages": {
+        "$path": "../Packages"
+      },
+      "Net": {
+        "$className": "Folder"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "../src/server"
+      },
+      "DevPackages": {
+        "$path": "../DevPackages"
+      },
+      "Tests": {
+        "$className": "Folder",
+        "run": {
+          "$path": "../tests/run.server.luau"
+        },
+        "unit": {
+          "$path": "../tests/unit"
+        }
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Place": {
+        "$path": "../src/places/Mall"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "../src/client"
+        }
+      },
+      "$properties": {
+        "EnableMouseLockOption": false,
+        "CharacterJumpPower": 0,
+        "CharacterWalkSpeed": 12
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": true
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}

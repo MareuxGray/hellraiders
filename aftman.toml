@@ -1,0 +1,7 @@
+# HellRaiders toolchain (25 §25.1). Install with `aftman install` or `rokit install` (Rokit reads this file too).
+[tools]
+rojo = "rojo-rbx/rojo@7.7.1"
+wally = "UpliftGames/wally@0.3.2"
+selene = "Kampfkarren/selene@0.32.0"
+stylua = "JohnnyMorganz/StyLua@2.6.0"
+lune = "lune-org/lune@0.10.3"
